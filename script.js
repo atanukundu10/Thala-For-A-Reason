@@ -11,8 +11,9 @@ searchButton.addEventListener("click", () =>{
 
     if (inpWord.length == 7) {
         sound.play()
+        error.innerHTML = `<p id="error"> Thala For a Reason </p>`
     }else{
-        error.innerHTML = `<p id="error"> Try Again </p>`
+        error.innerHTML = `<p id="error"> Try Again, Enter 7 Letter Word </p>`
     }
 
 })
